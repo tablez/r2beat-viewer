@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<TITLE Name="JENNY - WANT YOU" >
+<BPM ToolFrame="0.000000" Frame="0" BPM="102.000000" >
+</BPM>
+<BGM Name="e_song41/JENNY_WANTYOU_FINAL128.mp3" Volume="1.00
+" >
+</BGM>
+<DELAY Value="7" >
+</DELAY>
+<LENGTH Value="2352" >
+</LENGTH>
+<EFFECT Snd="e_song41/DRUM-CLAP.mp3" Volume="1.00" >
+</EFFECT>
+<EFFECT Snd="e_song41/DRUM-KICK.mp3" Volume="1.00" >
+</EFFECT>
+<EFFECT Snd="e_song41/GRUITAR01.mp3" Volume="0.90" >
+</EFFECT>
+<EFFECT Snd="e_song41/GRUITAR02.mp3" Volume="0.90" >
+</EFFECT>
+<EFFECT Snd="e_song41/GRUITAR03.mp3" Volume="0.90" >
+</EFFECT>
+<EFFECT Snd="e_song41/GRUITAR04.mp3" Volume="0.90" >
+</EFFECT>
+<EFFECT Snd="e_song41/LEAD01.mp3" Volume="0.60" >
+</EFFECT>
+<EFFECT Snd="e_song41/LEAD02.mp3" Volume="0.60" >
+</EFFECT>
+<EFFECT Snd="e_song41/LEAD03.mp3" Volume="0.60" >
+</EFFECT>
+<EFFECT Snd="e_song41/LEAD04.mp3" Volume="0.60" >
+</EFFECT>
+<EFFECT Snd="e_song41/LEAD05.mp3" Volume="0.60" >
+</EFFECT>
+<EFFECT Snd="e_song41/LEAD06.mp3" Volume="0.60" >
+</EFFECT>
+<EFFECT Snd="e_song41/LEAD07.mp3" Volume="0.60" >
+</EFFECT>
+<EFFECT Snd="e_song41/LEAD08.mp3" Volume="0.60" >
+</EFFECT>
+<EFFECT Snd="e_song41/LEAD09.mp3" Volume="0.60" >
+</EFFECT>
+<EFFECT Snd="e_song41/LEAD10.mp3" Volume="0.60" >
+</EFFECT>
+<EFFECT Snd="e_song41/LEAD11.mp3" Volume="0.60" >
+</EFFECT>
+<EFFECT Snd="e_song41/LEAD12.mp3" Volume="0.60" >
+</EFFECT>
+<EFFECT Snd="e_song41/LEAD13.mp3" Volume="0.60" >
+</EFFECT>
+<EFFECT Snd="e_song41/LEAD14.mp3" Volume="0.60" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP01.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP02.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP03.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP04.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP05.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP06.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP07.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP08.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP09.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP10.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP11.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP12.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP13.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP14.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP15.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP16.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP17.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP18.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP19.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP20.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP21.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/LOOP22.mp3" Volume="0.80" >
+</EFFECT>
+<EFFECT Snd="e_song41/PIANO01.mp3" Volume="1.00" >
+</EFFECT>
+<EFFECT Snd="e_song41/PIANO02.mp3" Volume="1.00" >
+</EFFECT>
+<EFFECT Snd="e_song41/PIANO03.mp3" Volume="1.00" >
+</EFFECT>
+<EFFECT Snd="e_song41/PIANO04.mp3" Volume="1.00" >
+</EFFECT>
+<EFFECT Snd="e_song41/PIANO05.mp3" Volume="1.00" >
+</EFFECT>
+<EFFECT Snd="e_song41/PIANO06.mp3" Volume="1.00" >
+</EFFECT>
+<EFFECT Snd="e_song41/PIANO07.mp3" Volume="1.00" >
+</EFFECT>
+<EFFECT Snd="e_song41/STRING01.mp3" Volume="0.75" >
+</EFFECT>
+<EFFECT Snd="e_song41/STRING02.mp3" Volume="0.75" >
+</EFFECT>
+<EFFECT Snd="e_song41/STRING03.mp3" Volume="0.75" >
+</EFFECT>
+<EFFECT Snd="e_song41/STRING04.mp3" Volume="0.75" >
+</EFFECT>
+<EFFECT Snd="e_song41/STRING05.mp3" Volume="0.75" >
+</EFFECT>
+<EFFECT Snd="e_song41/STRING06.mp3" Volume="0.75" >
+</EFFECT>
+<EFFECT Snd="e_song41/STRING07.mp3" Volume="0.75" >
+</EFFECT>
+<EFFECT Snd="e_song41/STRING08.mp3" Volume="0.75" >
+</EFFECT>
+<EFFECT Snd="e_song41/STRING09.mp3" Volume="0.75" >
+</EFFECT>
+<EFFECT Snd="e_song41/STRING10.mp3" Volume="0.75" >
+</EFFECT>
+<AREA Coord="48" Kind="26" Level="1" FxSndIndex="43" >
+</AREA>
+<AREA Coord="57" Kind="27" Level="1" FxSndIndex="44" >
+</AREA>
+<AREA Coord="66" Kind="26" Level="1" FxSndIndex="45" >
+</AREA>
+<AREA Coord="93" Kind="17" Level="3" FxSndIndex="46" >
+</AREA>
+<AREA Coord="105" Kind="27" Level="1" FxSndIndex="47" >
+</AREA>
+<AREA Coord="114" Kind="26" Level="1" FxSndIndex="48" >
+</AREA>
+<AREA Coord="132" Kind="27" Level="1" FxSndIndex="49" >
+</AREA>
+<AREA Coord="144" Kind="26" Level="1" FxSndIndex="43" >
+</AREA>
+<AREA Coord="153" Kind="27" Level="1" FxSndIndex="44" >
+</AREA>
+<AREA Coord="162" Kind="26" Level="1" FxSndIndex="45" >
+</AREA>
+<AREA Coord="189" Kind="17" Level="3" FxSndIndex="46" >
+</AREA>
+<AREA Coord="201" Kind="27" Level="1" FxSndIndex="47" >
+</AREA>
+<AREA Coord="210" Kind="26" Level="1" FxSndIndex="48" >
+</AREA>
+<AREA Coord="228" Kind="27" Level="1" FxSndIndex="49" >
+</AREA>
+<AREA Coord="240" Kind="18" Level="2" FxSndIndex="2" >
+</AREA>
+<AREA Coord="252" Kind="19" Level="2" FxSndIndex="1" >
+</AREA>
+<AREA Coord="258" Kind="26" Level="1" FxSndIndex="3" >
+</AREA>
+<AREA Coord="264" Kind="27" Level="1" FxSndIndex="4" >
+</AREA>
+<AREA Coord="273" Kind="27" Level="1" FxSndIndex="5" >
+</AREA>
+<AREA Coord="279" Kind="26" Level="1" FxSndIndex="6" >
+</AREA>
+<AREA Coord="288" Kind="18" Level="2" FxSndIndex="2" >
+</AREA>
+<AREA Coord="300" Kind="19" Level="2" FxSndIndex="1" >
+</AREA>
+<AREA Coord="318" Kind="19" Level="2" FxSndIndex="2" >
+</AREA>
+<AREA Coord="324" Kind="18" Level="2" FxSndIndex="1" >
+</AREA>
+<AREA Coord="336" Kind="18" Level="2" FxSndIndex="2" >
+</AREA>
+<AREA Coord="348" Kind="19" Level="2" FxSndIndex="1" >
+</AREA>
+<AREA Coord="354" Kind="26" Level="1" FxSndIndex="3" >
+</AREA>
+<AREA Coord="360" Kind="27" Level="1" FxSndIndex="4" >
+</AREA>
+<AREA Coord="369" Kind="27" Level="1" FxSndIndex="5" >
+</AREA>
+<AREA Coord="375" Kind="26" Level="1" FxSndIndex="6" >
+</AREA>
+<AREA Coord="384" Kind="19" Level="2" FxSndIndex="2" >
+</AREA>
+<AREA Coord="396" Kind="18" Level="2" FxSndIndex="1" >
+</AREA>
+<AREA Coord="420" Kind="27" Level="1" FxSndIndex="49" >
+</AREA>
+<AREA Coord="432" Kind="26" Level="1" FxSndIndex="43" >
+</AREA>
+<AREA Coord="441" Kind="27" Level="1" FxSndIndex="44" >
+</AREA>
+<AREA Coord="450" Kind="16" Level="3" FxSndIndex="45" >
+</AREA>
+<AREA Coord="477" Kind="17" Level="3" FxSndIndex="46" >
+</AREA>
+<AREA Coord="489" Kind="27" Level="1" FxSndIndex="47" >
+</AREA>
+<AREA Coord="498" Kind="26" Level="1" FxSndIndex="48" >
+</AREA>
+<AREA Coord="516" Kind="27" Level="1" FxSndIndex="49" >
+</AREA>
+<AREA Coord="528" Kind="27" Level="1" FxSndIndex="43" >
+</AREA>
+<AREA Coord="537" Kind="27" Level="1" FxSndIndex="44" >
+</AREA>
+<AREA Coord="546" Kind="16" Level="3" FxSndIndex="45" >
+</AREA>
+<AREA Coord="573" Kind="17" Level="3" FxSndIndex="46" >
+</AREA>
+<AREA Coord="585" Kind="27" Level="1" FxSndIndex="47" >
+</AREA>
+<AREA Coord="594" Kind="26" Level="1" FxSndIndex="48" >
+</AREA>
+<AREA Coord="612" Kind="27" Level="1" FxSndIndex="49" >
+</AREA>
+<AREA Coord="624" Kind="26" Level="1" FxSndIndex="43" >
+</AREA>
+<AREA Coord="633" Kind="27" Level="1" FxSndIndex="44" >
+</AREA>
+<AREA Coord="642" Kind="26" Level="1" FxSndIndex="45" >
+</AREA>
+<AREA Coord="648" Kind="26" Level="1" FxSndIndex="4" >
+</AREA>
+<AREA Coord="657" Kind="27" Level="1" FxSndIndex="5" >
+</AREA>
+<AREA Coord="663" Kind="26" Level="1" FxSndIndex="6" >
+</AREA>
+<AREA Coord="669" Kind="16" Level="3" FxSndIndex="46" >
+</AREA>
+<AREA Coord="681" Kind="27" Level="1" FxSndIndex="47" >
+</AREA>
+<AREA Coord="690" Kind="26" Level="1" FxSndIndex="48" >
+</AREA>
+<AREA Coord="708" Kind="27" Level="1" FxSndIndex="49" >
+</AREA>
+<AREA Coord="720" Kind="26" Level="1" FxSndIndex="43" >
+</AREA>
+<AREA Coord="729" Kind="27" Level="1" FxSndIndex="44" >
+</AREA>
+<AREA Coord="738" Kind="26" Level="1" FxSndIndex="45" >
+</AREA>
+<AREA Coord="744" Kind="27" Level="1" FxSndIndex="4" >
+</AREA>
+<AREA Coord="753" Kind="27" Level="1" FxSndIndex="5" >
+</AREA>
+<AREA Coord="759" Kind="26" Level="1" FxSndIndex="6" >
+</AREA>
+<AREA Coord="765" Kind="16" Level="3" FxSndIndex="46" >
+</AREA>
+<AREA Coord="777" Kind="27" Level="1" FxSndIndex="47" >
+</AREA>
+<AREA Coord="786" Kind="26" Level="1" FxSndIndex="48" >
+</AREA>
+<AREA Coord="804" Kind="20" Level="5" FxSndIndex="49" >
+</AREA>
+<AREA Coord="816" Kind="26" Level="1" FxSndIndex="7" >
+</AREA>
+<AREA Coord="825" Kind="27" Level="1" FxSndIndex="8" >
+</AREA>
+<AREA Coord="852" Kind="27" Level="1" FxSndIndex="9" >
+</AREA>
+<AREA Coord="858" Kind="26" Level="1" FxSndIndex="10" >
+</AREA>
+<AREA Coord="864" Kind="26" Level="1" FxSndIndex="11" >
+</AREA>
+<AREA Coord="873" Kind="16" Level="3" FxSndIndex="12" >
+</AREA>
+<AREA Coord="896" Kind="27" Level="1" FxSndIndex="13" >
+</AREA>
+<AREA Coord="904" Kind="26" Level="1" FxSndIndex="14" >
+</AREA>
+<AREA Coord="912" Kind="27" Level="1" FxSndIndex="15" >
+</AREA>
+<AREA Coord="920" Kind="16" Level="3" FxSndIndex="16" >
+</AREA>
+<AREA Coord="945" Kind="27" Level="1" FxSndIndex="17" >
+</AREA>
+<AREA Coord="954" Kind="27" Level="1" FxSndIndex="18" >
+</AREA>
+<AREA Coord="960" Kind="26" Level="1" FxSndIndex="19" >
+</AREA>
+<AREA Coord="976" Kind="140" Level="5" FxSndIndex="20" >
+</AREA>
+<AREA Coord="988" Kind="142" Level="5" FxSndIndex="0" >
+</AREA>
+<AREA Coord="1006" Kind="26" Level="1" FxSndIndex="7" >
+</AREA>
+<AREA Coord="1016" Kind="27" Level="1" FxSndIndex="8" >
+</AREA>
+<AREA Coord="1042" Kind="27" Level="1" FxSndIndex="9" >
+</AREA>
+<AREA Coord="1048" Kind="26" Level="1" FxSndIndex="10" >
+</AREA>
+<AREA Coord="1054" Kind="26" Level="1" FxSndIndex="11" >
+</AREA>
+<AREA Coord="1064" Kind="21" Level="5" FxSndIndex="12" >
+</AREA>
+<AREA Coord="1088" Kind="27" Level="1" FxSndIndex="13" >
+</AREA>
+<AREA Coord="1096" Kind="26" Level="1" FxSndIndex="14" >
+</AREA>
+<AREA Coord="1102" Kind="27" Level="1" FxSndIndex="15" >
+</AREA>
+<AREA Coord="1112" Kind="20" Level="5" FxSndIndex="16" >
+</AREA>
+<AREA Coord="1136" Kind="27" Level="1" FxSndIndex="17" >
+</AREA>
+<AREA Coord="1144" Kind="27" Level="1" FxSndIndex="18" >
+</AREA>
+<AREA Coord="1150" Kind="26" Level="1" FxSndIndex="19" >
+</AREA>
+<AREA Coord="1168" Kind="137" Level="5" FxSndIndex="20" >
+</AREA>
+<AREA Coord="1180" Kind="139" Level="5" FxSndIndex="0" >
+</AREA>
+<AREA Coord="1200" Kind="20" Level="5" FxSndIndex="50" >
+</AREA>
+<AREA Coord="1224" Kind="21" Level="5" FxSndIndex="51" >
+</AREA>
+<AREA Coord="1248" Kind="20" Level="5" FxSndIndex="52" >
+</AREA>
+<AREA Coord="1272" Kind="17" Level="3" FxSndIndex="53" >
+</AREA>
+<AREA Coord="1284" Kind="16" Level="3" FxSndIndex="54" >
+</AREA>
+<AREA Coord="1296" Kind="17" Level="3" FxSndIndex="55" >
+</AREA>
+<AREA Coord="1320" Kind="21" Level="5" FxSndIndex="56" >
+</AREA>
+<AREA Coord="1344" Kind="20" Level="5" FxSndIndex="57" >
+</AREA>
+<AREA Coord="1368" Kind="20" Level="5" FxSndIndex="58" >
+</AREA>
+<AREA Coord="1380" Kind="21" Level="5" FxSndIndex="57" >
+</AREA>
+<AREA Coord="1392" Kind="17" Level="3" FxSndIndex="50" >
+</AREA>
+<AREA Coord="1416" Kind="20" Level="5" FxSndIndex="51" >
+</AREA>
+<AREA Coord="1440" Kind="21" Level="5" FxSndIndex="52" >
+</AREA>
+<AREA Coord="1464" Kind="18" Level="2" FxSndIndex="53" >
+</AREA>
+<AREA Coord="1476" Kind="19" Level="2" FxSndIndex="54" >
+</AREA>
+<AREA Coord="1488" Kind="16" Level="3" FxSndIndex="55" >
+</AREA>
+<AREA Coord="1512" Kind="16" Level="3" FxSndIndex="56" >
+</AREA>
+<AREA Coord="1536" Kind="17" Level="3" FxSndIndex="57" >
+</AREA>
+<AREA Coord="1557" Kind="19" Level="2" FxSndIndex="58" >
+</AREA>
+<AREA Coord="1569" Kind="18" Level="2" FxSndIndex="59" >
+</AREA>
+<AREA Coord="1581" Kind="26" Level="1" FxSndIndex="21" >
+</AREA>
+<AREA Coord="1593" Kind="27" Level="1" FxSndIndex="22" >
+</AREA>
+<AREA Coord="1599" Kind="26" Level="1" FxSndIndex="23" >
+</AREA>
+<AREA Coord="1605" Kind="26" Level="1" FxSndIndex="24" >
+</AREA>
+<AREA Coord="1617" Kind="27" Level="1" FxSndIndex="25" >
+</AREA>
+<AREA Coord="1623" Kind="26" Level="1" FxSndIndex="26" >
+</AREA>
+<AREA Coord="1632" Kind="27" Level="1" FxSndIndex="27" >
+</AREA>
+<AREA Coord="1641" Kind="26" Level="1" FxSndIndex="28" >
+</AREA>
+<AREA Coord="1647" Kind="26" Level="1" FxSndIndex="29" >
+</AREA>
+<AREA Coord="1653" Kind="27" Level="1" FxSndIndex="30" >
+</AREA>
+<AREA Coord="1665" Kind="26" Level="1" FxSndIndex="31" >
+</AREA>
+<AREA Coord="1671" Kind="27" Level="1" FxSndIndex="32" >
+</AREA>
+<AREA Coord="1677" Kind="26" Level="1" FxSndIndex="33" >
+</AREA>
+<AREA Coord="1689" Kind="26" Level="1" FxSndIndex="34" >
+</AREA>
+<AREA Coord="1695" Kind="27" Level="1" FxSndIndex="35" >
+</AREA>
+<AREA Coord="1701" Kind="27" Level="1" FxSndIndex="36" >
+</AREA>
+<AREA Coord="1713" Kind="26" Level="1" FxSndIndex="37" >
+</AREA>
+<AREA Coord="1725" Kind="27" Level="1" FxSndIndex="38" >
+</AREA>
+<AREA Coord="1737" Kind="27" Level="1" FxSndIndex="39" >
+</AREA>
+<AREA Coord="1749" Kind="26" Level="1" FxSndIndex="40" >
+</AREA>
+<AREA Coord="1761" Kind="27" Level="1" FxSndIndex="41" >
+</AREA>
+<AREA Coord="1767" Kind="26" Level="1" FxSndIndex="42" >
+</AREA>
+<AREA Coord="1773" Kind="26" Level="1" FxSndIndex="21" >
+</AREA>
+<AREA Coord="1785" Kind="27" Level="1" FxSndIndex="22" >
+</AREA>
+<AREA Coord="1791" Kind="26" Level="1" FxSndIndex="23" >
+</AREA>
+<AREA Coord="1797" Kind="26" Level="1" FxSndIndex="24" >
+</AREA>
+<AREA Coord="1809" Kind="27" Level="1" FxSndIndex="25" >
+</AREA>
+<AREA Coord="1815" Kind="26" Level="1" FxSndIndex="26" >
+</AREA>
+<AREA Coord="1824" Kind="27" Level="1" FxSndIndex="27" >
+</AREA>
+<AREA Coord="1833" Kind="26" Level="1" FxSndIndex="28" >
+</AREA>
+<AREA Coord="1839" Kind="26" Level="1" FxSndIndex="29" >
+</AREA>
+<AREA Coord="1845" Kind="27" Level="1" FxSndIndex="30" >
+</AREA>
+<AREA Coord="1857" Kind="26" Level="1" FxSndIndex="31" >
+</AREA>
+<AREA Coord="1863" Kind="27" Level="1" FxSndIndex="32" >
+</AREA>
+<AREA Coord="1869" Kind="26" Level="1" FxSndIndex="33" >
+</AREA>
+<AREA Coord="1881" Kind="26" Level="1" FxSndIndex="34" >
+</AREA>
+<AREA Coord="1887" Kind="27" Level="1" FxSndIndex="35" >
+</AREA>
+<AREA Coord="1893" Kind="27" Level="1" FxSndIndex="36" >
+</AREA>
+<AREA Coord="1905" Kind="26" Level="1" FxSndIndex="37" >
+</AREA>
+<AREA Coord="1917" Kind="27" Level="1" FxSndIndex="38" >
+</AREA>
+<AREA Coord="1929" Kind="27" Level="1" FxSndIndex="39" >
+</AREA>
+<AREA Coord="1941" Kind="26" Level="1" FxSndIndex="40" >
+</AREA>
+<AREA Coord="1953" Kind="27" Level="1" FxSndIndex="41" >
+</AREA>
+<AREA Coord="1959" Kind="27" Level="1" FxSndIndex="42" >
+</AREA>
+<AREA Coord="1965" Kind="26" Level="1" FxSndIndex="7" >
+</AREA>
+<AREA Coord="1974" Kind="27" Level="1" FxSndIndex="8" >
+</AREA>
+<AREA Coord="2001" Kind="27" Level="1" FxSndIndex="9" >
+</AREA>
+<AREA Coord="2007" Kind="26" Level="1" FxSndIndex="10" >
+</AREA>
+<AREA Coord="2013" Kind="26" Level="1" FxSndIndex="11" >
+</AREA>
+<AREA Coord="2022" Kind="16" Level="3" FxSndIndex="12" >
+</AREA>
+<AREA Coord="2046" Kind="27" Level="1" FxSndIndex="13" >
+</AREA>
+<AREA Coord="2055" Kind="26" Level="1" FxSndIndex="14" >
+</AREA>
+<AREA Coord="2061" Kind="27" Level="1" FxSndIndex="15" >
+</AREA>
+<AREA Coord="2070" Kind="16" Level="3" FxSndIndex="16" >
+</AREA>
+<AREA Coord="2094" Kind="27" Level="1" FxSndIndex="17" >
+</AREA>
+<AREA Coord="2103" Kind="27" Level="1" FxSndIndex="18" >
+</AREA>
+<AREA Coord="2109" Kind="26" Level="1" FxSndIndex="19" >
+</AREA>
+<AREA Coord="2127" Kind="140" Level="5" FxSndIndex="20" >
+</AREA>
+<AREA Coord="2139" Kind="142" Level="5" FxSndIndex="0" >
+</AREA>
+<AREA Coord="2157" Kind="26" Level="1" FxSndIndex="7" >
+</AREA>
+<AREA Coord="2166" Kind="27" Level="1" FxSndIndex="8" >
+</AREA>
+<AREA Coord="2193" Kind="27" Level="1" FxSndIndex="9" >
+</AREA>
+<AREA Coord="2199" Kind="26" Level="1" FxSndIndex="10" >
+</AREA>
+<AREA Coord="2205" Kind="26" Level="1" FxSndIndex="11" >
+</AREA>
+<AREA Coord="2214" Kind="16" Level="3" FxSndIndex="12" >
+</AREA>
+<AREA Coord="2238" Kind="27" Level="1" FxSndIndex="13" >
+</AREA>
+<AREA Coord="2247" Kind="26" Level="1" FxSndIndex="14" >
+</AREA>
+<AREA Coord="2253" Kind="27" Level="1" FxSndIndex="15" >
+</AREA>
+<AREA Coord="2262" Kind="16" Level="3" FxSndIndex="16" >
+</AREA>
+<AREA Coord="2286" Kind="27" Level="1" FxSndIndex="17" >
+</AREA>
+<AREA Coord="2295" Kind="27" Level="1" FxSndIndex="18" >
+</AREA>
+<AREA Coord="2301" Kind="26" Level="1" FxSndIndex="19" >
+</AREA>
+<AREA Coord="2319" Kind="143" Level="5" FxSndIndex="20" >
+</AREA>
+<AREA Coord="2331" Kind="145" Level="5" FxSndIndex="0" >
+</AREA>
+<AREA Coord="2349" Kind="18" Level="2" FxSndIndex="43" >
+</AREA>
+<AREA Coord="2358" Kind="19" Level="2" FxSndIndex="44" >
+</AREA>
+</TITLE>

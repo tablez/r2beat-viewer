@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<TITLE Name="DeadMoon_star">
+<BPM Frame="0" BPM="180" OriginalBPM="140"></BPM>
+<BGM Name="e_song1493/mr.mp3" Volume="1.00"></BGM>
+<DELAY Value="80"></DELAY>
+<LENGTH Value="3792"></LENGTH>
+<EFFECT Snd="e_song1493/Bass01.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass02.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass03.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass04.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass05.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass06.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass07.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass08.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass09.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass10.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass11.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass12.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass13.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass14.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass15.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass16.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass17.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass18.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Bass19.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/kick01.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano01.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano02.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano03.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano04.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano05.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano06.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano07.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano08.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano09.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano10.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano11.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano12.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano13.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano14.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano15.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano16.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano17.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano18.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano19.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano20.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano21.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano22.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano23.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano24.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano25.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano26.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano27.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano28.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano29.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano30.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano31.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Piano32.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth01.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth02.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth03.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth04.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth05.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth06.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth07.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth08.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth09.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth10.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth11.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth12.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth14.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth15.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth16.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody01.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody02.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody03.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody04.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody05.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody06.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody07.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody08.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody09.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody10.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody11.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody12.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody13.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody14.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody15.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody16.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody17.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody18.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody19.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody20.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody21.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody22.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody23.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth_Melody24.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/z(nosound)02.mp3" Volume="1.00"></EFFECT>
+<EFFECT Snd="e_song1493/Synth13.mp3" Volume="1.00"></EFFECT>
+<AREA Coord="46.29" Kind="26" Level="1" FxSndIndex="1"></AREA>
+<AREA Coord="50.14" Kind="27" Level="1" FxSndIndex="0"></AREA>
+<AREA Coord="57.86" Kind="26" Level="1" FxSndIndex="0"></AREA>
+<AREA Coord="61.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="69.43" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="81" Kind="18" Level="2" FxSndIndex="2"></AREA>
+<AREA Coord="92.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="100.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="108" Kind="27" Level="1" FxSndIndex="3"></AREA>
+<AREA Coord="111.86" Kind="26" Level="1" FxSndIndex="0"></AREA>
+<AREA Coord="119.57" Kind="27" Level="1" FxSndIndex="0"></AREA>
+<AREA Coord="131.14" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="138.86" Kind="19" Level="2" FxSndIndex="4"></AREA>
+<AREA Coord="142.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="154.29" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="162" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="169.71" Kind="26" Level="1" FxSndIndex="5"></AREA>
+<AREA Coord="173.57" Kind="27" Level="1" FxSndIndex="0"></AREA>
+<AREA Coord="181.29" Kind="26" Level="1" FxSndIndex="0"></AREA>
+<AREA Coord="192.86" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="204.43" Kind="19" Level="2" FxSndIndex="6"></AREA>
+<AREA Coord="216" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="223.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="231.43" Kind="17" Level="3" FxSndIndex="7"></AREA>
+<AREA Coord="235.29" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="243" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="254.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="262.29" Kind="18" Level="2" FxSndIndex="8"></AREA>
+<AREA Coord="266.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="277.71" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="285.43" Kind="26" Level="1" FxSndIndex="0"></AREA>
+<AREA Coord="293.14" Kind="18" Level="2" FxSndIndex="21"></AREA>
+<AREA Coord="300.86" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="308.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="316.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="320.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="324" Kind="19" Level="2" FxSndIndex="22"></AREA>
+<AREA Coord="331.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="335.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="339.43" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="347.14" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="354.86" Kind="19" Level="2" FxSndIndex="23"></AREA>
+<AREA Coord="362.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="366.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="370.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="374.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="378" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="381.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="385.71" Kind="17" Level="3" FxSndIndex="24"></AREA>
+<AREA Coord="393.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="397.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="405" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="408.86" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="416.57" Kind="19" Level="2" FxSndIndex="25"></AREA>
+<AREA Coord="424.29" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="432" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="439.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="443.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="447.43" Kind="19" Level="2" FxSndIndex="26"></AREA>
+<AREA Coord="455.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="462.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="470.57" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="474.43" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="478.29" Kind="18" Level="2" FxSndIndex="27"></AREA>
+<AREA Coord="486" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="489.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="493.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="497.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="501.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="505.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="509.14" Kind="16" Level="3" FxSndIndex="28"></AREA>
+<AREA Coord="516.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="520.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="528.43" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="532.29" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="540" Kind="19" Level="2" FxSndIndex="29"></AREA>
+<AREA Coord="543.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="551.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="555.43" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="563.14" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="567" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="570.86" Kind="18" Level="2" FxSndIndex="30"></AREA>
+<AREA Coord="578.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="582.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="586.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="594" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="601.71" Kind="17" Level="3" FxSndIndex="31"></AREA>
+<AREA Coord="609.43" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="613.29" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="617.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="621" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="624.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="628.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="632.57" Kind="16" Level="3" FxSndIndex="32"></AREA>
+<AREA Coord="640.29" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="644.14" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="651.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="655.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="659.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="663.43" Kind="18" Level="2" FxSndIndex="33"></AREA>
+<AREA Coord="667.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="675" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="678.86" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="686.57" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="690.43" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="694.29" Kind="18" Level="2" FxSndIndex="34"></AREA>
+<AREA Coord="702" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="709.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="717.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="721.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="725.14" Kind="19" Level="2" FxSndIndex="35"></AREA>
+<AREA Coord="732.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="740.57" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="744.43" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="748.29" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="756" Kind="19" Level="2" FxSndIndex="36"></AREA>
+<AREA Coord="763.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="767.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="775.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="779.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="783" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="786.86" Kind="19" Level="2" FxSndIndex="68"></AREA>
+<AREA Coord="792" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="797.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="802.29" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="817.71" Kind="17" Level="3" FxSndIndex="69"></AREA>
+<AREA Coord="822.86" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="828" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="833.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="838.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="843.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="848.57" Kind="19" Level="2" FxSndIndex="70"></AREA>
+<AREA Coord="853.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="858.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="864" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="879.43" Kind="16" Level="3" FxSndIndex="71"></AREA>
+<AREA Coord="884.57" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="889.71" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="894.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="900" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="905.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="910.29" Kind="17" Level="3" FxSndIndex="72"></AREA>
+<AREA Coord="915.43" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="920.57" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="925.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="941.14" Kind="16" Level="3" FxSndIndex="73"></AREA>
+<AREA Coord="946.29" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="951.43" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="956.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="961.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="966.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="972" Kind="18" Level="2" FxSndIndex="74"></AREA>
+<AREA Coord="977.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="982.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="987.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1002.86" Kind="17" Level="3" FxSndIndex="75"></AREA>
+<AREA Coord="1008" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1013.14" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1018.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1023.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1028.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1033.71" Kind="19" Level="2" FxSndIndex="37"></AREA>
+<AREA Coord="1041.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1049.14" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1056.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1060.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1064.57" Kind="18" Level="2" FxSndIndex="38"></AREA>
+<AREA Coord="1072.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1076.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1080" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1087.71" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1095.43" Kind="18" Level="2" FxSndIndex="39"></AREA>
+<AREA Coord="1103.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1107" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1110.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1114.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1118.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1122.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1126.29" Kind="16" Level="3" FxSndIndex="40"></AREA>
+<AREA Coord="1134" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1137.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1145.57" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1149.43" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1157.14" Kind="18" Level="2" FxSndIndex="41"></AREA>
+<AREA Coord="1164.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1172.57" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1180.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1184.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1188" Kind="19" Level="2" FxSndIndex="42"></AREA>
+<AREA Coord="1195.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1203.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1211.14" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1215" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1218.86" Kind="19" Level="2" FxSndIndex="43"></AREA>
+<AREA Coord="1226.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1230.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1234.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1238.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1242" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1245.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1249.71" Kind="17" Level="3" FxSndIndex="44"></AREA>
+<AREA Coord="1257.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1261.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1269" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1272.86" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1280.57" Kind="16" Level="3" FxSndIndex="45"></AREA>
+<AREA Coord="1284.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1292.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1296" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1303.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1307.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1311.43" Kind="17" Level="3" FxSndIndex="46"></AREA>
+<AREA Coord="1319.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1323" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1326.86" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1334.57" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1342.29" Kind="18" Level="2" FxSndIndex="47"></AREA>
+<AREA Coord="1350" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1353.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1357.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1361.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1365.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1369.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1373.14" Kind="19" Level="2" FxSndIndex="48"></AREA>
+<AREA Coord="1380.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1384.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1392.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1396.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1400.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1404" Kind="17" Level="3" FxSndIndex="49"></AREA>
+<AREA Coord="1407.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1415.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1419.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1427.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1431" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1434.86" Kind="16" Level="3" FxSndIndex="50"></AREA>
+<AREA Coord="1442.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1450.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1458" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1461.86" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1465.71" Kind="19" Level="2" FxSndIndex="51"></AREA>
+<AREA Coord="1473.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1481.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1485" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1488.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1496.57" Kind="18" Level="2" FxSndIndex="52"></AREA>
+<AREA Coord="1504.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1508.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1515.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1519.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1523.57" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1527.43" Kind="18" Level="2" FxSndIndex="53"></AREA>
+<AREA Coord="1532.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1537.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1542.86" Kind="22" Level="4" FxSndIndex="0"></AREA>
+<AREA Coord="1558.29" Kind="18" Level="2" FxSndIndex="54"></AREA>
+<AREA Coord="1563.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1568.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1573.71" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1578.86" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1584" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1589.14" Kind="18" Level="2" FxSndIndex="55"></AREA>
+<AREA Coord="1594.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1599.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1604.57" Kind="23" Level="4" FxSndIndex="0"></AREA>
+<AREA Coord="1620" Kind="17" Level="3" FxSndIndex="56"></AREA>
+<AREA Coord="1625.14" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1630.29" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1635.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1640.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1645.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1650.86" Kind="18" Level="2" FxSndIndex="57"></AREA>
+<AREA Coord="1656" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1661.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1666.29" Kind="23" Level="4" FxSndIndex="0"></AREA>
+<AREA Coord="1681.71" Kind="18" Level="2" FxSndIndex="58"></AREA>
+<AREA Coord="1686.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1692" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1697.14" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1702.29" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1707.43" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1712.57" Kind="19" Level="2" FxSndIndex="59"></AREA>
+<AREA Coord="1717.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1722.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1728" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1743.43" Kind="16" Level="3" FxSndIndex="60"></AREA>
+<AREA Coord="1748.57" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1753.71" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1758.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1764" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1769.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1774.29" Kind="19" Level="2" FxSndIndex="53"></AREA>
+<AREA Coord="1779.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1784.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1789.71" Kind="22" Level="4" FxSndIndex="0"></AREA>
+<AREA Coord="1805.14" Kind="18" Level="2" FxSndIndex="54"></AREA>
+<AREA Coord="1810.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1815.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1820.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1825.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1830.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1836" Kind="18" Level="2" FxSndIndex="55"></AREA>
+<AREA Coord="1841.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1846.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1851.43" Kind="23" Level="4" FxSndIndex="0"></AREA>
+<AREA Coord="1866.86" Kind="19" Level="2" FxSndIndex="56"></AREA>
+<AREA Coord="1872" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1877.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1882.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1887.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1892.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1897.71" Kind="19" Level="2" FxSndIndex="57"></AREA>
+<AREA Coord="1902.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1908" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1913.14" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1928.57" Kind="17" Level="3" FxSndIndex="58"></AREA>
+<AREA Coord="1933.71" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1938.86" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1944" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1949.14" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1954.29" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="1959.43" Kind="18" Level="2" FxSndIndex="59"></AREA>
+<AREA Coord="1964.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1969.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="1974.86" Kind="21" Level="5" FxSndIndex="0"></AREA>
+<AREA Coord="1990.29" Kind="16" Level="3" FxSndIndex="60"></AREA>
+<AREA Coord="1995.43" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2000.57" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2005.71" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2010.86" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2016" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2021.14" Kind="18" Level="2" FxSndIndex="53"></AREA>
+<AREA Coord="2026.29" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2031.43" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2036.57" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2052" Kind="19" Level="2" FxSndIndex="54"></AREA>
+<AREA Coord="2057.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2062.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2067.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2072.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2077.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2082.86" Kind="19" Level="2" FxSndIndex="55"></AREA>
+<AREA Coord="2088" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2093.14" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2098.29" Kind="20" Level="5" FxSndIndex="0"></AREA>
+<AREA Coord="2113.71" Kind="18" Level="2" FxSndIndex="56"></AREA>
+<AREA Coord="2118.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2124" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2129.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2134.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2139.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2144.57" Kind="18" Level="2" FxSndIndex="57"></AREA>
+<AREA Coord="2149.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2154.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2160" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2175.43" Kind="19" Level="2" FxSndIndex="58"></AREA>
+<AREA Coord="2180.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2185.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2190.86" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2196" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2201.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2206.29" Kind="19" Level="2" FxSndIndex="59"></AREA>
+<AREA Coord="2211.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2216.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2221.71" Kind="23" Level="4" FxSndIndex="0"></AREA>
+<AREA Coord="2237.14" Kind="18" Level="2" FxSndIndex="60"></AREA>
+<AREA Coord="2242.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2247.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2252.57" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2257.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2262.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2268" Kind="17" Level="3" FxSndIndex="61"></AREA>
+<AREA Coord="2273.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2278.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2283.43" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2298.86" Kind="16" Level="3" FxSndIndex="62"></AREA>
+<AREA Coord="2304" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2309.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2314.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2319.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2324.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2329.71" Kind="19" Level="2" FxSndIndex="63"></AREA>
+<AREA Coord="2334.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2340" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2345.14" Kind="22" Level="4" FxSndIndex="0"></AREA>
+<AREA Coord="2360.57" Kind="18" Level="2" FxSndIndex="64"></AREA>
+<AREA Coord="2365.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2370.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2376" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2381.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2386.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2391.43" Kind="18" Level="2" FxSndIndex="93"></AREA>
+<AREA Coord="2396.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2401.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2406.86" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2412" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2417.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2422.29" Kind="19" Level="2" FxSndIndex="65"></AREA>
+<AREA Coord="2427.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2432.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2437.71" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2442.86" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2448" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2453.14" Kind="19" Level="2" FxSndIndex="66"></AREA>
+<AREA Coord="2458.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2463.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2468.57" Kind="21" Level="5" FxSndIndex="0"></AREA>
+<AREA Coord="2484" Kind="18" Level="2" FxSndIndex="67"></AREA>
+<AREA Coord="2489.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2494.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2499.43" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2504.57" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2509.71" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2514.86" Kind="19" Level="2" FxSndIndex="9"></AREA>
+<AREA Coord="2518.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2526.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2538" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2549.57" Kind="18" Level="2" FxSndIndex="10"></AREA>
+<AREA Coord="2561.14" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2568.86" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2576.57" Kind="18" Level="2" FxSndIndex="11"></AREA>
+<AREA Coord="2580.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2588.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2599.71" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2607.43" Kind="19" Level="2" FxSndIndex="12"></AREA>
+<AREA Coord="2611.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2622.86" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2630.57" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2638.29" Kind="16" Level="3" FxSndIndex="5"></AREA>
+<AREA Coord="2642.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2649.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2661.43" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2673" Kind="19" Level="2" FxSndIndex="14"></AREA>
+<AREA Coord="2684.57" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2692.29" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2700" Kind="17" Level="3" FxSndIndex="15"></AREA>
+<AREA Coord="2703.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2711.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2723.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2730.86" Kind="19" Level="2" FxSndIndex="16"></AREA>
+<AREA Coord="2734.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2746.29" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2754" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2761.71" Kind="18" Level="2" FxSndIndex="21"></AREA>
+<AREA Coord="2769.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2777.14" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2784.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2788.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2792.57" Kind="17" Level="3" FxSndIndex="22"></AREA>
+<AREA Coord="2800.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2804.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2808" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2815.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2823.43" Kind="18" Level="2" FxSndIndex="23"></AREA>
+<AREA Coord="2831.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2835" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2838.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2842.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2846.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2850.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2854.29" Kind="16" Level="3" FxSndIndex="24"></AREA>
+<AREA Coord="2862" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2865.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2873.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2877.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2885.14" Kind="19" Level="2" FxSndIndex="25"></AREA>
+<AREA Coord="2892.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2900.57" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="2908.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2912.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2916" Kind="16" Level="3" FxSndIndex="26"></AREA>
+<AREA Coord="2923.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2931.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2939.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2943" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2946.86" Kind="19" Level="2" FxSndIndex="27"></AREA>
+<AREA Coord="2954.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2962.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2966.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2970" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2973.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2977.71" Kind="17" Level="3" FxSndIndex="28"></AREA>
+<AREA Coord="2985.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2989.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="2997" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3000.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3008.57" Kind="16" Level="3" FxSndIndex="29"></AREA>
+<AREA Coord="3012.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3020.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3024" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3031.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3035.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3039.43" Kind="19" Level="2" FxSndIndex="30"></AREA>
+<AREA Coord="3047.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3051" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3054.86" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3062.57" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3070.29" Kind="19" Level="2" FxSndIndex="31"></AREA>
+<AREA Coord="3078" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3081.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3085.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3089.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3093.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3097.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3101.14" Kind="16" Level="3" FxSndIndex="32"></AREA>
+<AREA Coord="3108.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3112.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3120.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3124.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3128.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3132" Kind="17" Level="3" FxSndIndex="33"></AREA>
+<AREA Coord="3135.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3143.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3147.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3155.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3159" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3162.86" Kind="18" Level="2" FxSndIndex="34"></AREA>
+<AREA Coord="3170.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3178.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3186" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3189.86" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3193.71" Kind="18" Level="2" FxSndIndex="35"></AREA>
+<AREA Coord="3201.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3209.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3213" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3216.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3224.57" Kind="17" Level="3" FxSndIndex="36"></AREA>
+<AREA Coord="3232.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3236.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3243.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3247.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3251.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3255.43" Kind="16" Level="3" FxSndIndex="37"></AREA>
+<AREA Coord="3263.14" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3270.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3278.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3282.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3286.29" Kind="19" Level="2" FxSndIndex="38"></AREA>
+<AREA Coord="3294" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3297.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3301.71" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3309.43" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3317.14" Kind="18" Level="2" FxSndIndex="39"></AREA>
+<AREA Coord="3324.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3328.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3332.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3336.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3340.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3344.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3348" Kind="19" Level="2" FxSndIndex="40"></AREA>
+<AREA Coord="3355.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3359.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3367.29" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3371.14" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3378.86" Kind="17" Level="3" FxSndIndex="41"></AREA>
+<AREA Coord="3386.57" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3394.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3402" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3405.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3409.71" Kind="18" Level="2" FxSndIndex="42"></AREA>
+<AREA Coord="3417.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3425.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3432.86" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3436.71" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3440.57" Kind="19" Level="2" FxSndIndex="43"></AREA>
+<AREA Coord="3448.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3452.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3456" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3459.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3463.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3467.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3471.43" Kind="18" Level="2" FxSndIndex="44"></AREA>
+<AREA Coord="3479.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3483" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3490.71" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3494.57" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3502.29" Kind="18" Level="2" FxSndIndex="45"></AREA>
+<AREA Coord="3506.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3513.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3517.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3525.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3529.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3533.14" Kind="16" Level="3" FxSndIndex="46"></AREA>
+<AREA Coord="3540.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3544.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3548.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3556.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3564" Kind="17" Level="3" FxSndIndex="47"></AREA>
+<AREA Coord="3571.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3575.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3579.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3583.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3587.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3591" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3594.86" Kind="18" Level="2" FxSndIndex="48"></AREA>
+<AREA Coord="3602.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3606.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3614.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3618" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3621.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3625.71" Kind="18" Level="2" FxSndIndex="49"></AREA>
+<AREA Coord="3629.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3637.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3641.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3648.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3652.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3656.57" Kind="17" Level="3" FxSndIndex="50"></AREA>
+<AREA Coord="3664.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3672" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3679.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3683.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3687.43" Kind="16" Level="3" FxSndIndex="51"></AREA>
+<AREA Coord="3695.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3702.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3706.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3710.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3718.29" Kind="18" Level="2" FxSndIndex="52"></AREA>
+<AREA Coord="3726" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3729.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3737.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3741.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3745.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3749.14" Kind="16" Level="3" FxSndIndex="76"></AREA>
+<AREA Coord="3756.86" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3764.57" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3772.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3776.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3780" Kind="17" Level="3" FxSndIndex="77"></AREA>
+<AREA Coord="3787.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3791.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3795.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3803.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3810.86" Kind="19" Level="2" FxSndIndex="78"></AREA>
+<AREA Coord="3818.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3822.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3826.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3830.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3834" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3837.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3841.71" Kind="18" Level="2" FxSndIndex="79"></AREA>
+<AREA Coord="3849.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3853.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3861" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3864.86" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3872.57" Kind="17" Level="3" FxSndIndex="80"></AREA>
+<AREA Coord="3880.29" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3888" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3895.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3899.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3903.43" Kind="16" Level="3" FxSndIndex="81"></AREA>
+<AREA Coord="3911.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3918.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3926.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3930.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3934.29" Kind="18" Level="2" FxSndIndex="82"></AREA>
+<AREA Coord="3942" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3945.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3949.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3953.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3957.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3961.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3965.14" Kind="19" Level="2" FxSndIndex="83"></AREA>
+<AREA Coord="3972.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3976.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="3984.43" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3988.29" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="3996" Kind="18" Level="2" FxSndIndex="84"></AREA>
+<AREA Coord="3999.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4007.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4011.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4019.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4023" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4026.86" Kind="18" Level="2" FxSndIndex="85"></AREA>
+<AREA Coord="4034.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4038.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4042.29" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4050" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4057.71" Kind="18" Level="2" FxSndIndex="86"></AREA>
+<AREA Coord="4065.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4069.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4073.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4077" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4080.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4084.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4088.57" Kind="19" Level="2" FxSndIndex="87"></AREA>
+<AREA Coord="4096.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4100.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4107.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4111.71" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4115.57" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4119.43" Kind="19" Level="2" FxSndIndex="88"></AREA>
+<AREA Coord="4123.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4131" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4134.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4142.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4146.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4150.29" Kind="19" Level="2" FxSndIndex="89"></AREA>
+<AREA Coord="4158" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4165.71" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4173.43" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4177.29" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4181.14" Kind="19" Level="2" FxSndIndex="90"></AREA>
+<AREA Coord="4188.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4196.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4200.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4204.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4212" Kind="18" Level="2" FxSndIndex="91"></AREA>
+<AREA Coord="4219.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4223.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4231.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4235.14" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4239" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4242.86" Kind="18" Level="2" FxSndIndex="37"></AREA>
+<AREA Coord="4250.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4258.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4266" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4269.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4273.71" Kind="19" Level="2" FxSndIndex="38"></AREA>
+<AREA Coord="4281.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4285.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4289.14" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4296.86" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4304.57" Kind="19" Level="2" FxSndIndex="39"></AREA>
+<AREA Coord="4312.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4316.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4320" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4323.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4327.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4331.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4335.43" Kind="18" Level="2" FxSndIndex="40"></AREA>
+<AREA Coord="4343.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4347" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4354.71" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4358.57" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4366.29" Kind="19" Level="2" FxSndIndex="41"></AREA>
+<AREA Coord="4374" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4381.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4389.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4393.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4397.14" Kind="18" Level="2" FxSndIndex="42"></AREA>
+<AREA Coord="4404.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4412.57" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4420.29" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4424.14" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4428" Kind="18" Level="2" FxSndIndex="43"></AREA>
+<AREA Coord="4435.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4439.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4443.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4447.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4451.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4455" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4458.86" Kind="19" Level="2" FxSndIndex="44"></AREA>
+<AREA Coord="4466.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4470.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4478.14" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4482" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4489.71" Kind="17" Level="3" FxSndIndex="45"></AREA>
+<AREA Coord="4493.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4501.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4505.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4512.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4516.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4520.57" Kind="18" Level="2" FxSndIndex="46"></AREA>
+<AREA Coord="4528.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4532.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4536" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4543.71" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4551.43" Kind="18" Level="2" FxSndIndex="47"></AREA>
+<AREA Coord="4559.14" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4563" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4566.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4570.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4574.57" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4578.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4582.29" Kind="19" Level="2" FxSndIndex="48"></AREA>
+<AREA Coord="4590" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4593.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4601.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4605.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4609.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4613.14" Kind="16" Level="3" FxSndIndex="49"></AREA>
+<AREA Coord="4617" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4624.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4628.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4636.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4640.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4644" Kind="19" Level="2" FxSndIndex="50"></AREA>
+<AREA Coord="4651.71" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4659.43" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4667.14" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4671" Kind="16" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4674.86" Kind="19" Level="2" FxSndIndex="51"></AREA>
+<AREA Coord="4682.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4690.29" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4694.14" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4698" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4705.71" Kind="18" Level="2" FxSndIndex="52"></AREA>
+<AREA Coord="4713.43" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4717.29" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4725" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4728.86" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4732.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4736.57" Kind="16" Level="3" FxSndIndex="17"></AREA>
+<AREA Coord="4740.43" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4748.14" Kind="17" Level="3" FxSndIndex="0"></AREA>
+<AREA Coord="4759.71" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4771.29" Kind="18" Level="2" FxSndIndex="18"></AREA>
+<AREA Coord="4782.86" Kind="19" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4790.57" Kind="18" Level="2" FxSndIndex="0"></AREA>
+<AREA Coord="4798.29" Kind="128" Level="5" FxSndIndex="19"></AREA>
+<AREA Coord="4810.29" Kind="129" Level="5" FxSndIndex="0"></AREA>
+<AREA Coord="4822.29" Kind="129" Level="5" FxSndIndex="0"></AREA>
+<AREA Coord="4834.29" Kind="129" Level="5" FxSndIndex="0"></AREA>
+<AREA Coord="4846.29" Kind="129" Level="5" FxSndIndex="0"></AREA>
+<AREA Coord="4858.29" Kind="129" Level="5" FxSndIndex="0"></AREA>
+<AREA Coord="4870.29" Kind="130" Level="5" FxSndIndex="0"></AREA>
+</TITLE>
