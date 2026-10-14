@@ -39,3 +39,6 @@ body{display:flex;flex-direction:column;height:100svh}#app{flex:1;min-height:0;h
 :root[data-theme="day"] .stage__board canvas{filter:none!important;background:#fff}
 
 .card__favorite{position:absolute;z-index:3;right:8px;top:8px;width:30px;height:30px;border:1px solid #7e8d9d80;border-radius:50%;color:#66758b;background:#fffef2ee;cursor:pointer;font:20px/1 system-ui;display:grid;place-items:center;box-shadow:0 1px 5px #0001}.card__favorite.is-favorite{color:#d94c5c;background:#fff5f5;border-color:#f3b7bf}.card__favorite:hover{transform:scale(1.08)}.favorite-filter{font-weight:600}:root[data-appearance="light"] .favorite-filter.chip--on{background:#fff1f3;color:#b9394b;border-color:#efb8c0}:root[data-theme="work"] .card__favorite{border-radius:3px;box-shadow:none}
+
+/* deployment attribution */
+#appearance-bar{flex-wrap:wrap}#appearance-bar .deployment-credit{font-size:12px;line-height:1.5;color:inherit}#appearance-bar .deployment-credit a{color:inherit;text-decoration:underline;text-underline-offset:2px}
