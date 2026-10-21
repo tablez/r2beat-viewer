@@ -1,5 +1,5 @@
 export const UP=1,DOWN=2,LEFT=4,RIGHT=8;
-export const TYPES=[{id:'basic',label:'基础适应',description:'等间隔随机上下左右；不生成任何斜向组合键'},{id:'cloud',label:'浮云',description:'左右左 / 右左右为小组，组间夹上、下或上下'},{id:'shield',label:'盾',description:'上上 / 下下为核心，组间夹左右变化'},{id:'bullet',label:'子弹',description:'左左右右 / 右右左左为核心，穿插不规则左右左'},{id:'ladder',label:'梯子',description:'密集、连续的一长串左右交替'},{id:'triangle',label:'三角',description:'每组三个不同的方向单键随机排列，按当前密度的 1.5 倍连续分布'},{id:'gun',label:'枪',description:'同一方向连续 4–8 次，换方向继续连打'}];
+export const TYPES=[{id:'basic',label:'基础适应',description:'等间隔随机上下左右；不生成任何斜向组合键'},{id:'cloud',label:'浮云',description:'左右左 / 右左右为小组，组间夹上、下或上下'},{id:'shield',label:'盾',description:'上上 / 下下为核心，组间夹左右变化'},{id:'bullet',label:'子弹',description:'左左右右 / 右右左左为核心，穿插不规则左右左'},{id:'ladder',label:'梯子',description:'密集、连续的一长串左右交替'},{id:'triangle',label:'三角',description:'每组三个不同方向单键随机排列；前两拍三连小爆发，第三拍留空'},{id:'gun',label:'枪',description:'同一方向连续 4–8 次，换方向继续连打'}];
 const one=(items,random)=>items[Math.floor(random()*items.length)];
 const shuffle=(items,random)=>{for(let i=items.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[items[i],items[j]]=[items[j],items[i]];}return items;};
 const sizes={basic:[1,4,8],cloud:[4,5],shield:[4,5,6],bullet:[4,7,9],ladder:[16,20,24],gun:[4,6,8],triangle:[3]};
@@ -15,7 +15,8 @@ export function generatePattern(selected,length=32,random=Math.random){
  // Preserve complete pattern groups and guarantee every selected category in each round.
  while(!complete(length,ids))length+=4;
  const result=[],densityFactors=[];
- function append(id,block){result.push(...block);densityFactors.push(...block.map(()=>id==='triangle'?1.5:1));}
+ // Triangle hits at 0, 2/3, 4/3 beats; rest on beat 2, next group starts at beat 3.
+ function append(id,block){result.push(...block);densityFactors.push(...block.map((_,index)=>id==='triangle'?(index===2?3/5:1.5):1));}
  function block(id,n){const a=one([LEFT,RIGHT],random),b=a===LEFT?RIGHT:LEFT,v=one([UP,DOWN],random);switch(id){
  case'triangle':return shuffle([UP,DOWN,LEFT,RIGHT],random).slice(0,3);
  case'basic':return Array.from({length:n},()=>one([UP,DOWN,LEFT,RIGHT],random));
