@@ -1,17 +1,31 @@
 export const UP=1,DOWN=2,LEFT=4,RIGHT=8;
-export const TYPES=[{id:'basic',label:'基础适应',description:'等间隔随机；单方向占 90% 以上，少量组合键'},{id:'cloud',label:'浮云',description:'左右左 / 右左右，穿插上、下'},{id:'shield',label:'盾',description:'连续上上 / 下下，穿插左右'},{id:'bullet',label:'子弹',description:'左左右右，穿插左右左'},{id:'ladder',label:'梯子',description:'连续左右交替'},{id:'gun',label:'枪',description:'同一方向连续四次或更多'}];
+export const TYPES=[{id:'basic',label:'基础适应',description:'等间隔随机上下左右；不生成任何斜向组合键'},{id:'cloud',label:'浮云',description:'左右左 / 右左右为小组，组间夹上、下或上下'},{id:'shield',label:'盾',description:'上上 / 下下为核心，组间夹左右变化'},{id:'bullet',label:'子弹',description:'左左右右 / 右右左左为核心，穿插不规则左右左'},{id:'ladder',label:'梯子',description:'密集、连续的一长串左右交替'},{id:'gun',label:'枪',description:'同一方向连续 4–8 次，换方向继续连打'}];
 const one=(items,random)=>items[Math.floor(random()*items.length)];
 const shuffle=(items,random)=>{for(let i=items.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[items[i],items[j]]=[items[j],items[i]];}return items;};
+const sizes={basic:[1,4,8],cloud:[4,5],shield:[4,5,6],bullet:[4,7,9],ladder:[16,20,24],gun:[4,6,8]};
+const alternate=(a,b,n)=>Array.from({length:n},(_,i)=>i%2?b:a);
 export function generatePattern(selected,length=32,random=Math.random){
  const ids=[...new Set(selected)].filter(id=>TYPES.some(t=>t.id===id));if(!ids.length)throw Error('请选择至少一种障碍');
- length=Math.max(16,Math.min(128,Math.round(length)));
- const basic=count=>{const diagonalCount=Math.floor(count*.08),arr=Array.from({length:count-diagonalCount},()=>one([UP,DOWN,LEFT,RIGHT],random));for(let i=0;i<diagonalCount;i++)arr.push(one([UP|LEFT,UP|RIGHT,DOWN|LEFT,DOWN|RIGHT],random));return shuffle(arr,random);};
- const block=id=>{const horizontal=one([[LEFT,RIGHT],[RIGHT,LEFT]],random),[a,b]=horizontal,v=one([UP,DOWN],random);switch(id){case'basic':return basic(16);case'cloud':return [v,a,b,a,one([UP,DOWN],random),b,a,b];case'shield':return [v,v,a,b,a,v===UP?DOWN:UP,v===UP?DOWN:UP,b,a,b];case'bullet':return [a,a,b,b,a,a,b,b,a,b,a];case'ladder':return [a,b,a,b,a,b,a,b];case'gun':return Array(4+Math.floor(random()*3)).fill(one([UP,DOWN,LEFT,RIGHT],random));}};
- if(ids.length===1&&ids[0]==='basic')return basic(length);
- // Include every selected pattern once before choosing the following mixed blocks.
- const result=[];for(const id of shuffle([...ids],random))result.push(...block(id));
- const weights={basic:2,cloud:4,shield:4,bullet:3,ladder:1,gun:1};const pool=ids.flatMap(id=>Array(weights[id]).fill(id));while(result.length<length)result.push(...block(one(pool,random)));
- // Keep complete groups rather than cutting the final shield / bullet / gun in half.
+ length=Math.max(16,Math.min(128,Math.round(length)));length=Math.ceil(length/4)*4;
+ if(ids.length===1&&ids[0]==='basic')return shuffle(Array.from({length},(_,i)=>[UP,DOWN,LEFT,RIGHT][i%4]),random);
+ if(ids.length===1&&ids[0]==='ladder'){const a=one([LEFT,RIGHT],random);return alternate(a,a===LEFT?RIGHT:LEFT,length);}
+ const allowed=[...new Set(ids.flatMap(id=>sizes[id]))],memo=new Map;
+ function fill(n){if(n===0)return true;if(n<0)return false;const key='f:'+n;if(memo.has(key))return memo.get(key);const ok=allowed.some(size=>size<=n&&fill(n-size));memo.set(key,ok);return ok;}
+ function complete(n,required){if(n<0)return false;if(!required.length)return fill(n);const key=n+':'+required.join(',');if(memo.has(key))return memo.get(key);const [id,...rest]=required,ok=sizes[id].some(size=>complete(n-size,rest));memo.set(key,ok);return ok;}
+ // Preserve complete pattern groups and guarantee every selected category in each round.
+ while(!complete(length,ids))length+=4;
+ const result=[];
+ function block(id,n){const a=one([LEFT,RIGHT],random),b=a===LEFT?RIGHT:LEFT,v=one([UP,DOWN],random);switch(id){
+ case'basic':return Array.from({length:n},()=>one([UP,DOWN,LEFT,RIGHT],random));
+ case'cloud':return [...(n===5?[v,v===UP?DOWN:UP]:[v]),a,b,a];
+ case'shield':return [v,v,...alternate(a,b,n-2)];
+ case'bullet':return [a,a,b,b,...(n===4?[]:n===7?[a,b,a]:[a,b,a,b,b])];
+ case'ladder':return alternate(a,b,n);
+ case'gun':return Array(n).fill(one([UP,DOWN,LEFT,RIGHT].filter(bit=>bit!==result.at(-1)),random));}}
+ const required=shuffle([...ids],random);
+ while(required.length){const id=required.shift(),available=sizes[id].filter(size=>complete(length-result.length-size,required)),n=one(available,random);result.push(...block(id,n));}
+ const weights={basic:1,cloud:5,shield:5,bullet:3,ladder:1,gun:1};
+ while(result.length<length){const remain=length-result.length,candidates=ids.flatMap(id=>sizes[id].filter(n=>fill(remain-n)).flatMap(n=>Array(weights[id]).fill({id,n}))),item=one(candidates,random);result.push(...block(item.id,item.n));}
  return result;
 }
 export function judge(deltaMs){const delta=Math.abs(deltaMs);return delta<=42?{label:'Perfect',points:1}:delta<=84?{label:'Great',points:.8}:delta<=144?{label:'Cool',points:.5}:delta<=200?{label:'Poor',points:.2}:{label:'Miss',points:0};}
