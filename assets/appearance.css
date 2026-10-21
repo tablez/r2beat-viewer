@@ -42,3 +42,11 @@ body{display:flex;flex-direction:column;height:100svh}#app{flex:1;min-height:0;h
 
 /* deployment attribution */
 #appearance-bar{flex-wrap:wrap}#appearance-bar .deployment-credit{font-size:12px;line-height:1.5;color:inherit}#appearance-bar .deployment-credit a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+
+/* Colorful work theme and synchronized playback speed */
+:root[data-theme="work"] .stage__board canvas,:root[data-theme="work"] .stage__mini canvas{filter:none!important;background:#fff}
+:root[data-theme="work"] .board__keys{display:none!important}
+.r2-speed-control{display:flex;align-items:center;justify-content:center;gap:10px;padding:6px 12px;flex:none;font-size:12px;line-height:1.5;background:var(--panel,#101319);color:var(--text,#e8eaf0)}
+.r2-speed-control>span:first-child{min-width:65px;font-variant-numeric:tabular-nums}.r2-speed-control input{width:clamp(120px,30vw,230px);cursor:pointer}.r2-speed-limits{opacity:.65;font-size:11px}
+
+#appearance-bar{height:auto;min-height:44px;padding-top:6px;padding-bottom:6px;row-gap:6px}#r2-keybindings{display:flex;align-items:center;gap:8px}.r2-remap-settings{position:relative}.r2-remap-settings summary{cursor:pointer}.r2-remap-panel{position:absolute;top:25px;right:0;width:min(300px,85vw);padding:16px;background:var(--panel,#fff);border:1px solid var(--border,#dce2e8);border-radius:10px;box-shadow:0 8px 28px #0003;z-index:1000}.r2-remap-row{display:flex;justify-content:space-between;align-items:center;margin:10px 0}.r2-remap-panel button{padding:6px 12px;border:1px solid var(--border,#aaa);border-radius:6px;background:var(--bg,#fff);color:inherit;cursor:pointer}.r2-remap-panel p{font-size:12px;line-height:1.6}.r2-practice-link{color:inherit;font-weight:600;text-decoration:none;white-space:nowrap}
