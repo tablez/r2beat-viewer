@@ -28,7 +28,7 @@ export function generatePattern(selected,length=32,random=Math.random){
  while(result.length<length){const remain=length-result.length,candidates=ids.flatMap(id=>sizes[id].filter(n=>fill(remain-n)).flatMap(n=>Array(weights[id]).fill({id,n}))),item=one(candidates,random);result.push(...block(item.id,item.n));}
  return result;
 }
-export function judge(deltaMs){const delta=Math.abs(deltaMs);return delta<=42?{label:'Perfect',points:1}:delta<=84?{label:'Great',points:.8}:delta<=144?{label:'Cool',points:.5}:delta<=200?{label:'Poor',points:.2}:{label:'Miss',points:0};}
+export function judge(deltaMs){const delta=Math.abs(deltaMs);return delta<=42?{label:'Perfect',points:1}:delta<=84?{label:'Great',points:.9}:delta<=144?{label:'Cool',points:.8}:delta<=200?{label:'Poor',points:.5}:{label:'Miss',points:0};}
 export function score(notes){return notes.length?Math.round(notes.reduce((total,n)=>total+(n.points||0),0)/notes.length*10000)/100:0;}
 export function compare(current,previous){if(previous==null)return{symbol:'—',className:'same',delta:0};const delta=Math.round((current-previous)*100)/100;return{symbol:delta>0?'↑':delta<0?'↓':'→',className:delta>0?'up':delta<0?'down':'same',delta};}
 export function physicalMask(event){const keys={ArrowUp:UP,ArrowDown:DOWN,ArrowLeft:LEFT,ArrowRight:RIGHT,Numpad8:UP,Numpad2:DOWN,Numpad4:LEFT,Numpad6:RIGHT,Numpad7:UP|LEFT,Numpad9:UP|RIGHT,Numpad1:DOWN|LEFT,Numpad3:DOWN|RIGHT};const fallback={'8':UP,'2':DOWN,'4':LEFT,'6':RIGHT,'7':UP|LEFT,'9':UP|RIGHT,'1':DOWN|LEFT,'3':DOWN|RIGHT,Home:UP|LEFT,PageUp:UP|RIGHT,End:DOWN|LEFT,PageDown:DOWN|RIGHT};return keys[event.code]??keys[event.key]??((!event.code||event.code==='Unidentified')?fallback[event.key]??0:0);}

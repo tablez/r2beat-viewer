@@ -30,7 +30,7 @@
   apply();
   function mount(){
     const bar=document.createElement('div');bar.id='appearance-bar';
-    bar.innerHTML='<label>主题 <select id="appearance-theme" aria-label="主题"></select></label><label id="appearance-scene-label" hidden>场景 <select id="appearance-scene" aria-label="摸鱼场景"></select></label><a class="r2-practice-link" href="./practice.html?v=spike-layout-20261021">专项练习</a><span class="appearance-note">外观选择自动保存</span><span class="deployment-credit">原作者：<a href="http://47.108.209.178/" target="_blank" rel="noopener noreferrer">[AG.M]夜明</a> · 修改部署版（非原作者发布）</span>';
+    bar.innerHTML='<label>主题 <select id="appearance-theme" aria-label="主题"></select></label><label id="appearance-scene-label" hidden>场景 <select id="appearance-scene" aria-label="摸鱼场景"></select></label><a class="r2-practice-link" href="./practice.html?v=sidebar-rhythm-20261021">专项练习</a><span class="appearance-note">外观选择自动保存</span><span class="deployment-credit">原作者：<a href="http://47.108.209.178/" target="_blank" rel="noopener noreferrer">[AG.M]夜明</a> · 修改部署版（非原作者发布）</span>';
     const chrome=document.createElement('div');chrome.id='work-chrome';chrome.hidden=true;
     chrome.innerHTML='<div class="work-title"><strong id="work-title"></strong><span class="window-actions" aria-hidden="true">− □ ×</span></div><div class="work-tabs" id="work-tabs" aria-hidden="true"></div><div class="work-tools" id="work-tools" aria-hidden="true"></div><div class="work-formula"><strong>A1</strong><span>fx</span><span id="work-formula-value"></span></div>';
     document.body.prepend(bar,chrome);
