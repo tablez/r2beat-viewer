@@ -1,8 +1,8 @@
 export const UP=1,DOWN=2,LEFT=4,RIGHT=8;
-export const TYPES=[{id:'basic',label:'基础适应',description:'等间隔随机上下左右；不生成任何斜向组合键'},{id:'cloud',label:'浮云',description:'左右左 / 右左右为小组，组间夹上、下或上下'},{id:'shield',label:'盾',description:'上上 / 下下为核心，组间夹左右变化'},{id:'bullet',label:'子弹',description:'左左右右 / 右右左左为核心，穿插不规则左右左'},{id:'ladder',label:'梯子',description:'密集、连续的一长串左右交替'},{id:'triangle',label:'三角',description:'每组三个不同方向单键随机排列；前两拍三连小爆发，第三拍留空'},{id:'gun',label:'枪',description:'同一方向连续 4–8 次，换方向继续连打'}];
+export const TYPES=[{id:'basic',label:'基础适应',description:'等间隔随机上下左右；不生成任何斜向组合键'},{id:'cloud',label:'浮云',description:'左右左 / 右左右为小组，组间夹上、下或上下'},{id:'shield',label:'盾',description:'上上 / 下下为核心，组间夹左右变化'},{id:'bullet',label:'子弹',description:'左左右右 / 右右左左为核心，穿插不规则左右左'},{id:'ladder',label:'梯子',description:'密集、连续的一长串左右交替'},{id:'triangle',label:'三角',description:'每组三个不同方向单键随机排列；前两拍三连小爆发，第三拍留空'},{id:'focus22',label:'22专练',description:'重复上左右左、上左右、上右左、下左上、下上左、上左等小组，集中练上与左，全部为单键'},{id:'gun',label:'枪',description:'同一方向连续 4–8 次，换方向继续连打'}];
 const one=(items,random)=>items[Math.floor(random()*items.length)];
 const shuffle=(items,random)=>{for(let i=items.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[items[i],items[j]]=[items[j],items[i]];}return items;};
-const sizes={basic:[1,4,8],cloud:[4,5],shield:[4,5,6],bullet:[4,7,9],ladder:[16,20,24],gun:[4,6,8],triangle:[3]};
+const sizes={basic:[1,4,8],cloud:[4,5],shield:[4,5,6],bullet:[4,7,9],ladder:[16,20,24],gun:[4,6,8],triangle:[3],focus22:[6,8,9,12]};
 const alternate=(a,b,n)=>Array.from({length:n},(_,i)=>i%2?b:a);
 export function generatePattern(selected,length=32,random=Math.random){
  const ids=[...new Set(selected)].filter(id=>TYPES.some(t=>t.id===id));if(!ids.length)throw Error('请选择至少一种障碍');
@@ -18,6 +18,7 @@ export function generatePattern(selected,length=32,random=Math.random){
  // Triangle hits at 0, 2/3, 4/3 beats; rest on beat 2, next group starts at beat 3.
  function append(id,block){result.push(...block);densityFactors.push(...block.map((_,index)=>id==='triangle'?(index===2?3/5:1.5):1));}
  function block(id,n){const a=one([LEFT,RIGHT],random),b=a===LEFT?RIGHT:LEFT,v=one([UP,DOWN],random);switch(id){
+ case'focus22':{const motif=one([[UP,LEFT,RIGHT,LEFT],[UP,LEFT,RIGHT],[UP,RIGHT,LEFT],[DOWN,LEFT,UP],[DOWN,UP,LEFT],[UP,LEFT]].filter(m=>n%m.length===0&&n/m.length>=2),random);return Array.from({length:n},(_,i)=>motif[i%motif.length]);}
  case'triangle':return shuffle([UP,DOWN,LEFT,RIGHT],random).slice(0,3);
  case'basic':return Array.from({length:n},()=>one([UP,DOWN,LEFT,RIGHT],random));
  case'cloud':return [...(n===5?[v,v===UP?DOWN:UP]:[v]),a,b,a];
@@ -27,7 +28,7 @@ export function generatePattern(selected,length=32,random=Math.random){
  case'gun':return Array(n).fill(one([UP,DOWN,LEFT,RIGHT].filter(bit=>bit!==result.at(-1)),random));}}
  const required=shuffle([...ids],random);
  while(required.length){const id=required.shift(),available=sizes[id].filter(size=>complete(length-result.length-size,required)),n=one(available,random);append(id,block(id,n));}
- const weights={basic:1,cloud:5,shield:5,bullet:3,ladder:1,gun:1,triangle:2};
+ const weights={basic:1,cloud:5,shield:5,bullet:3,ladder:1,gun:1,triangle:2,focus22:3};
  while(result.length<length){const remain=length-result.length,candidates=ids.flatMap(id=>sizes[id].filter(n=>fill(remain-n)).flatMap(n=>Array(weights[id]).fill({id,n}))),item=one(candidates,random);append(item.id,block(item.id,item.n));}
  Object.defineProperty(result,'densityFactors',{value:densityFactors});return result;
 }

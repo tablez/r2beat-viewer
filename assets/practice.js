@@ -1,4 +1,4 @@
-import {TYPES,generatePattern,schedulePattern,judge,score,compare,physicalMask,keyToken} from './practice-core.js?v=c0220b2fd4a9';
+import {TYPES,generatePattern,schedulePattern,judge,score,compare,physicalMask,keyToken} from './practice-core.js?v=161ec5bcff30';
 import {visualForMask,laneGeometry} from './practice-visuals.js?v=d6d23fddccc0';
 const $=id=>document.getElementById(id),bits=[1,2,4,8],names={1:'↑',2:'↓',4:'←',8:'→',5:'↖',9:'↗',6:'↙',10:'↘'},labels=['Perfect','Great','Cool','Poor','Miss'];
 const gradeColors={Perfect:'#ffffff',Great:'#fff3a1',Cool:'#ffd32a',Poor:'#ff9632',Miss:'#ee4949'};
