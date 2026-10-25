@@ -58,4 +58,5 @@ export const PRACTICE_VISUALS={
   }
 };
 export function visualForMask(mask){return PRACTICE_VISUALS[mask]??null;}
-export function laneGeometry(width){const trackWidth=Math.min(270,Math.max(120,width-48)),cell=trackWidth/3,left=(width-trackWidth)/2;return{left,width:trackWidth,cell,centers:[left+cell*.5,left+cell*1.5,left+cell*2.5],size:Math.min(64,cell*.78)};}
+// At 100%, spike centers align with the visible door edges (x=5 and x=59 in its 64px sprite).
+export function laneGeometry(width,spread=1){const available=Math.min(270,Math.max(60,width-48)),size=Math.min(64,available/3*.78),factor=Math.max(.5,Math.min(3.5,Number(spread)||1)),cell=size*27/64*factor,trackWidth=cell*3,left=(width-trackWidth)/2;return{left,width:trackWidth,cell,centers:[width/2-cell,width/2,width/2+cell],size};}
