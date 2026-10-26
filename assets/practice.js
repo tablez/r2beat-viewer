@@ -3,7 +3,7 @@ import {visualForMask,laneGeometry} from './practice-visuals.js?v=39d8b14cb525';
 const $=id=>document.getElementById(id),bits=[1,2,4,8],names={1:'↑',2:'↓',4:'←',8:'→',5:'↖',9:'↗',6:'↙',10:'↘'},labels=['Perfect','Great','Cool','Poor','Miss'];
 const gradeColors={Perfect:'#ffffff',Great:'#fff3a1',Cool:'#ffd32a',Poor:'#ff9632',Miss:'#ee4949'};
 const selected=new Set(['basic']);let pattern=[],notes=[],round=0,combo=0,running=false,paused=false,anchor=0,wall=0,freezeUntil=0,graceUntil=0,penaltyActive=false,rate=1,density=1,interval=.3,cycle=12,roundStart=0,lastScore=null,history=[],counts={},held=new Map,roundSummary='',summaryUntil=0,frame=0,audio=null,beepCursor=0,beeps=[];
-let laneSpread=1;try{laneSpread=Number(localStorage.getItem('r2beat-practice-lane-spacing-v1'))||1;}catch{}
+let laneSpread=1.8;try{laneSpread=Number(localStorage.getItem('r2beat-practice-lane-spacing-v1'))||1.8;}catch{}
 const canvas=$('practice-canvas'),ctx=canvas.getContext('2d'),images=new Map;
 for(const mask of [1,2,4,8,5,9,6,10]){const image=new Image();image.src=visualForMask(mask).src;images.set(mask,image);}
 function clock(){return anchor+(running&&!paused?Math.max(0,performance.now()-Math.max(wall,freezeUntil))/1000*rate:0);}
