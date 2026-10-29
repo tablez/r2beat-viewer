@@ -4,3 +4,12 @@
 @media(max-width:760px){.practice-app{padding:10px!important}.practice-heading p{display:none}.practice-heading{margin-bottom:10px}.practice-layout{grid-template-columns:minmax(0,1fr)}.practice-sidebar{position:fixed;z-index:50;left:10px;top:94px;bottom:12px;width:min(360px,calc(100vw - 20px));overflow:auto;padding:10px;background:var(--bg,#f4f6f8);border:1px solid var(--border,#ddd);border-radius:12px;box-shadow:0 8px 32px #0003}.practice-track{height:calc(100dvh - 140px);min-height:300px}.practice-play{position:static}.practice-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.practice-menu-toggle{margin-left:0}.practice-footer{font-size:10px}}
 
 .practice-spacing-control{display:flex;align-items:center;gap:7px;flex-wrap:wrap}.practice-spacing-control output{min-width:42px;text-align:center;font-variant-numeric:tabular-nums}
+
+/* Independent sections inside the left column; the chart occupies the right column. */
+.practice-layout{margin:0 auto;grid-template-columns:360px minmax(0,1fr)}
+.practice-sidebar{position:static;z-index:auto;width:100%;height:auto;max-height:none;overflow:visible;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;gap:12px}
+.practice-sidebar .practice-heading{width:100%;margin:0;gap:10px;align-items:center}.practice-heading h1{font-size:24px}
+.practice-fold-controls{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:6px}
+.practice-fold-controls button{display:block;flex:none;margin:0;padding:7px 10px;font:inherit;font-size:13px;color:var(--text,#243445);border:1px solid var(--border,#ddd);border-radius:7px;background:var(--panel,#fff);cursor:pointer}
+.practice-sidebar [hidden]{display:none!important}.practice-play{top:12px}.practice-track{height:calc(100dvh - 105px)}
+@media(max-width:760px){.practice-layout{grid-template-columns:minmax(0,1fr);gap:12px}.practice-heading{margin-bottom:0}.practice-heading h1{font-size:21px}.practice-fold-controls button{font-size:12px;padding:7px 9px}.practice-track{height:calc(100dvh - 215px);min-height:300px}}
